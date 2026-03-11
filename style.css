@@ -1,0 +1,40 @@
+/* NEYAB CORPORATION - FICHIER STYLES */
+
+/* Import de la police principale */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+/* Définition globale de la typographie */
+body { 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Background Section Hero (Assurez-vous que l'image est dans le bon dossier) */
+.hero-bg {
+    background-image: url('./images/IMAGE_CAMIONS.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Filtre assombrissant (Gradient) pour la lisibilité du texte sur l'image */
+.overlay {
+    background: linear-gradient(to right, rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.4));
+}
+
+/* Utilitaires : Masquage barre de défilement pour le slider horizontal */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Safari et Chrome */
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE et Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Comportement du carrousel sur mobile */
+.snap-x {
+    scroll-snap-type: x mandatory;
+}
+.snap-center {
+    scroll-snap-align: center;
+}
