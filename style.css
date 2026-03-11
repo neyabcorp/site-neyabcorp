@@ -17,9 +17,11 @@ body {
 }
 
 /* Filtre assombrissant (Gradient) pour la lisibilité du texte sur l'image */
+/*
 .overlay {
     background: linear-gradient(to right, rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.4));
 }
+*/
 
 /* Utilitaires : Masquage barre de défilement pour le slider horizontal */
 .scrollbar-hide::-webkit-scrollbar {
@@ -37,4 +39,5 @@ body {
 }
 .snap-center {
     scroll-snap-align: center;
+
 }
